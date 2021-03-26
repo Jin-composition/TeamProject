@@ -24,9 +24,7 @@
             <LinearLayout
                 android:id="@+id/btn01"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼1" >
+                android:layout_height="200dp">
 
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -46,7 +44,29 @@
                 </FrameLayout>
 
 
+            </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/btn02"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/frameSize">
+
+                    <androidx.viewpager2.widget.ViewPager2
+                        android:id="@+id/viewPager22"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/frameSize"/>
+
+                    <me.relex.circleindicator.CircleIndicator3
+                        android:id="@+id/indicator22"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="bottom"/>
+
+                </FrameLayout>
 
 
             </LinearLayout>
@@ -139,68 +159,7 @@
                 android:backgroundTint="#BBDEFB"
                 android:text="버튼14"/>
 
-            <Button
-                android:id="@+id/btn15"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼15"/>
 
-            <Button
-                android:id="@+id/btn16"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼16"/>
-
-            <Button
-                android:id="@+id/btn17"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼17"/>
-
-            <Button
-                android:id="@+id/btn18"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼18"/>
-
-            <Button
-                android:id="@+id/btn19"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼19"/>
-
-            <Button
-                android:id="@+id/btn20"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼20"/>
-
-            <Button
-                android:id="@+id/btn21"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼21"/>
-
-            <Button
-                android:id="@+id/btn22"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼22"/>
-
-            <Button
-                android:id="@+id/btn23"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:backgroundTint="#BBDEFB"
-                android:text="버튼23"/>
 
 
         </LinearLayout>
